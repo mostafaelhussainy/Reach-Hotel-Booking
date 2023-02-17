@@ -1,0 +1,30 @@
+#navbar {
+  background: var(--header-background-color);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 20px;
+    }
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+    li {
+      padding: 0 10px;
+      line-height: 96px;
+    }
+  }
+}
