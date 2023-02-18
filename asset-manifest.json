@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/react-hotel-booking/static/css/main.2aa9be03.css",
-    "main.js": "/react-hotel-booking/static/js/main.c7b6dd96.js",
-    "index.html": "/react-hotel-booking/index.html",
-    "main.2aa9be03.css.map": "/react-hotel-booking/static/css/main.2aa9be03.css.map",
-    "main.c7b6dd96.js.map": "/react-hotel-booking/static/js/main.c7b6dd96.js.map"
+    "main.css": "/React-Hotel-Booking/static/css/main.61663889.css",
+    "main.js": "/React-Hotel-Booking/static/js/main.9f8e1f1c.js",
+    "static/media/id5.jpeg": "/React-Hotel-Booking/static/media/id5.80c2fdbfa0bd6aab4382.jpeg",
+    "static/media/id2.jpeg": "/React-Hotel-Booking/static/media/id2.312542010c4c102c8e19.jpeg",
+    "static/media/id1.jpg": "/React-Hotel-Booking/static/media/id1.8429722eacaff3b2b189.jpg",
+    "static/media/id4.jpg": "/React-Hotel-Booking/static/media/id4.6b2dfd56c3ce97a93f61.jpg",
+    "static/media/id6.png": "/React-Hotel-Booking/static/media/id6.187ba43696000e8a91c5.png",
+    "static/media/id3.jpg": "/React-Hotel-Booking/static/media/id3.824afe97baf85c902948.jpg",
+    "index.html": "/React-Hotel-Booking/index.html",
+    "main.61663889.css.map": "/React-Hotel-Booking/static/css/main.61663889.css.map",
+    "main.9f8e1f1c.js.map": "/React-Hotel-Booking/static/js/main.9f8e1f1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2aa9be03.css",
-    "static/js/main.c7b6dd96.js"
+    "static/css/main.61663889.css",
+    "static/js/main.9f8e1f1c.js"
   ]
 }
