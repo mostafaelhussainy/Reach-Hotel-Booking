@@ -8,7 +8,7 @@ export default function Navbar() {
     <section id="navbar">
       <div className="container">
       <nav>
-          <Link to="/">
+          <Link to="/React-Hotel-Booking/">
             <div className="logo">
               <img src={logo} alt="booking throw mobile" />
               <h1>Hotel Booking</h1>  
@@ -16,12 +16,12 @@ export default function Navbar() {
           </Link>
           <ul className="links">
           <li className="navbar-links">
-            <Link to="/">
+            <Link to="/React-Hotel-Booking/">
               Home
             </Link>
           </li>
           <li className="navbar-links">
-            <Link to="/bookings" className="navbar-link">
+            <Link to="/React-Hotel-Booking/bookings" className="navbar-link">
               Bookings
             </Link>
           </li>
