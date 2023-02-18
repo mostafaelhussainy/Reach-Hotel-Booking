@@ -1,0 +1,38 @@
+.booking-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+
+  h1 {
+    margin-bottom: 40px;
+  }
+
+  .booked-hotel-wrapper {
+    background: var(--form-bg-color);
+    padding: 30px 40px;
+    border-radius: 15px;
+  }
+
+  .booked-hotel {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .cancel-book {
+    background: var(--buttons-main-color);
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: 50px;
+    display: block;
+
+    &:hover {
+      background: var(--buttons-hover-color);
+    }
+  }
+}

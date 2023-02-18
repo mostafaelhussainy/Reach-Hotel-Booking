@@ -8,10 +8,12 @@ export default function Navbar() {
     <section id="navbar">
       <div className="container">
       <nav>
-          <div className="logo">
-            <img src={logo} alt="booking throw mobile" />
-            <h1>Hotel Booking</h1>  
-          </div>
+          <Link to="/">
+            <div className="logo">
+              <img src={logo} alt="booking throw mobile" />
+              <h1>Hotel Booking</h1>  
+            </div>
+          </Link>
           <ul className="links">
           <li className="navbar-links">
             <Link to="/">

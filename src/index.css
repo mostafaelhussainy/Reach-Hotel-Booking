@@ -5,9 +5,12 @@
   --header-background-color: #f6f6f6;
   --heading-main-color: #23104E;
   --buttons-main-color: #302CA2;
-  --buttons-hover-color: #e4e4e4;
+  --buttons-hover-color: #7877a0;
+  --card-bg-color: #dfdee4;
+  --form-bg-color: #afaeb9;
   --h5-color: #23104e;
   --body-color: #032326;
+  --card-shadow: -1px 17px 29px #63619c54;
 }
 
 *, *:visited {
@@ -32,7 +35,7 @@ h1 {
 
 h3 {
   font-weight: 400;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 145.19%;
   color: var(--heading-main-color);
 }
@@ -48,9 +51,16 @@ h3 {
   background: var(--buttons-hover-color);
 }
 
+h4 {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 145.19%;
+  color: var(--h5-color);
+}
+
 h5 {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 145.19%;
   color: var(--h5-color);
 }

@@ -3,6 +3,12 @@ import Navbar from './Components/Shared/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import BookingList from './Components/BookingList/BookingList';
 import { useState } from 'react';
+import Hotel1 from './assets/id1.jpg'
+import Hotel2 from './assets/id2.jpeg'
+import Hotel3 from './assets/id3.jpg'
+import Hotel4 from './assets/id4.jpg'
+import Hotel5 from './assets/id5.jpeg'
+import Hotel6 from './assets/id6.png'
 
 function App() {
   const [hotels, setHotels] = useState([
@@ -12,9 +18,9 @@ function App() {
       address: "El-Orouba, Heliopolis",
       city: "Cairo",
       country: "Egypt",
-      stars: 5,
+      stars: 3.7,
       price: 150,
-      image: 'https://via.placeholder.com/150',
+      image: Hotel1,
       booked: false
     },
     {
@@ -23,9 +29,9 @@ function App() {
       address: "1113 Corniche El Nil",
       city: "Cairo",
       country: "Egypt",
-      stars: 5,
+      stars: 4,
       price: 250,
-      image: 'https://via.placeholder.com/150',
+      image: Hotel2,
       booked: false
     },
     {
@@ -36,7 +42,7 @@ function App() {
       country: "United Arab Emirates",
       stars: 5,
       price: 300,
-      image: 'https://via.placeholder.com/150',
+      image: Hotel3,
       booked: false
     },
     {
@@ -47,7 +53,7 @@ function App() {
       country: "United Arab Emirates",
       stars: 7,
       price: 1000,
-      image: 'https://via.placeholder.com/150',
+      image: Hotel4,
       booked: false
     },
     {
@@ -56,9 +62,9 @@ function App() {
       address: "P.O. Box 23400, West Bay",
       city: "Doha",
       country: "Qatar",
-      stars: 5,
+      stars: 3.5,
       price: 200,
-      image: 'https://via.placeholder.com/150',
+      image: Hotel5,
       booked: false
     },
     {
@@ -69,27 +75,11 @@ function App() {
       country: "Qatar",
       stars: 5,
       price: 180,
-      image: 'https://via.placeholder.com/150',
+      image: Hotel6,
       booked: false
     }
   ]);
   const [bookedHotels, setBookedHotels] = useState([]);
-
-  // const bookHotel = (id) => {
-  //   setHotels((prevHotels) =>
-  //     prevHotels.map((hotel) => {
-  //       if (hotel.id === id) {
-  //         const updatedHotel = { ...hotel, booked: true };
-  //         return updatedHotel;
-  //       }
-  //       return hotel;
-  //     })
-  //   );
-  //   setBookedHotels((prevBookedHotels) => [
-  //     ...prevBookedHotels,
-  //     hotels.find((hotel) => hotel.id === id),
-  //   ]);
-  // };
 
   const bookHotel = (id) => {
     setHotels((prevHotels) =>

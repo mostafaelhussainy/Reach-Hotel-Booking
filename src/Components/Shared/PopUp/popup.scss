@@ -1,0 +1,30 @@
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--form-bg-color);
+  width: 70vw;
+  height: fit-content;
+  z-index: 100;
+  padding: 40px 30px;
+  border-radius: 30px;
+
+  .close-popup-button {
+    background: var(--buttons-main-color);
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: 50px;
+    display: block;
+    position: static;
+
+    &:hover {
+      background: var(--buttons-hover-color);
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.hotel {
+  width: fit-content;
+  background: var(--card-bg-color);
+  box-shadow: var(--card-shadow);
+  border-radius: 20px;
+  transition: transform 0.2s ease-in-out;
+  position: unset;
+
+  figure {
+    width: fit-content;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+
+    img {
+      width: 350px;
+      height: 350px;
+      object-position: center;
+      object-fit: cover;
+    }
+  }
+
+  .text-wrapper {
+    width: fit-content;
+    padding: 15px 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+
+    h3,
+    h4,
+    h5 {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .booking-button {
+    background: var(--buttons-main-color);
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: 50px;
+    display: block;
+
+    &:hover {
+      background: var(--buttons-hover-color);
+    }
+  }
+}
+
+// .hotel:hover {
+//   transform: scale(1.05, 1.05);
+// }
+
+@media (max-width: 990px) {
+  .hotel {
+    margin: 0 auto;
+  }
+}
