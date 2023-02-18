@@ -123,10 +123,10 @@ function App() {
       <div className="App">
         <Navbar />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/React-Hotel-Booking/">
             <Home hotels={hotels} bookHotel={bookHotel} cancelBooking={cancelBooking} bookedHotels={bookedHotels} />
           </Route>
-          <Route path="/bookings">
+          <Route path="/React-Hotel-Booking/bookings">
             <BookingList bookedHotels={bookedHotels} cancelBooking={cancelBooking} />
           </Route>
         </Switch>
