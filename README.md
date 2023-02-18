@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+<pre>
+  <h1>React Hotel Booking</h1>
+  This is a React-based hotel booking application that allows users to book hotels.
+  
+  <h2> `State Management` </h2>
+  The application uses useState for state management and then transfer the data from the 
+  App.js to all different components.
+  
+  <h2>`Folder Structure`</h2>
+  The application is built using a component-based architecture, with each component responsible 
+  for a specific part of the user interface or functionality. 
+  Here's a brief overview of the main components:
+  
+ <h4>src</h4>
+  ├── App.jsx: The root component of the application that renders the other components and 
+  │              manages the global state.
+  └── Components: The folder that contains all the components for the application.
+        ├──	Shared: The folder that contains all the shared components.
+        │				├── Navbar: Contains the Navbar Component of the application
+        │				├── PopUp: Contains the component for a pop-up that appears 
+        │			  │          after submit the form that takes the user info.
+        ├── Home: The folder that contains the home page for the application.
+        │			├── HotelList: Contains the HotelList.jsx component which list all the hotels.
+        │			│					└── Hotel: Contains the Hotel.jsx component which 
+        │			│                    list all the hotel details and the ability to book.
+        │			└── BookingForm: Contains the BookingForm.jsx that appears after booking an 
+        │                      hotel and list the user details. 			
+        └── BookingList: Contains the BookingList.jsx component and the other route that 
+                          list all the booked hotels.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  <h2>Dependencies</h2>
+  Here are the main dependencies used in the project and their purpose:
+  `react-icons:` A library of customizable icons for React.
+  `react-icons:` A library of customizable icons for React.
+  `react-rating-stars-component:` A library for creating customizable star ratings in React.
+  `react-router-dom:` A library for client-side routing in React.
+</pre>
